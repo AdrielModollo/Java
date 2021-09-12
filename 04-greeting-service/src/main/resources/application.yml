@@ -1,1 +1,1 @@
-spring:  application:    name: greeting-servicegreeting-service: greeting: "Olá" default-value: "Mundo"
+spring:  application:    name: greeting-servicemanagement:  endpoints:    web:      exposure:        include:        - '*'greeting-service: greeting: "Olá" default-value: "Mundo"
