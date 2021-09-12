@@ -1,0 +1,23 @@
+Para instalar e configurar o java
+-Baixar sdk 16.0
+-Ir em variáveis de ambiente e adicionar caminho do java e em PATH adicionar %JAVA_HOME%/bin
+java -version
+
+Maven
+Serve para gerenciar dependências
+Baixei o Maven 3.6
+Extrai o arquivo e renomei a pasta para Maven, colei na c:/
+mvn -v
+
+SpringTools4
+
+cd "C:\Arquivos de Programas\SpringTools4"
+java -jar caminho
+
+Instalar Padrão:
+Git
+Mysql
+MysqlWorkBench
+HeidiSQL
+Postman
+Docker
