@@ -17,3 +17,7 @@ spring:  application:    name: cambio-service
     schemas: cambio_service
     user: root
     password: admin123
+springdoc:
+  show-actuator: true
+  api-docs:
+    path: cambio-service/v3/api-docs   
