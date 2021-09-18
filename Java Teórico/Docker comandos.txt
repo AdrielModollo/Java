@@ -24,3 +24,6 @@ docker logs -f id <-mostra em tempo real os logs
 docker contatiner ls -a < mostra todos os containers inclusive os parado
 
 docker tag adrielmodollo/hello-docker:0.0.1-SNAPSHOT adrielmodollo/hello-docker:latest <-fixar nome da versão
+
+docker image remove id ou docker rmi id < remove a imagem especifica (caso dar alguma falha coloque -f na frente do id para forçar a remoção)
+git pull nome da image < baixa a image
