@@ -13,3 +13,14 @@ docker push adrielmodollo/hello-docker:0.0.1-SNAPSHOT
 Executar docker
 docker run -p 80:80 -d adrielmodollo/hello-docker:0.0.1-SNAPSHOT
 docker container ls
+
+Parar container
+docker container stop id
+
+Logs de execuçação
+docker log id
+docker logs -f id <-mostra em tempo real os logs
+
+docker contatiner ls -a < mostra todos os containers inclusive os parado
+
+docker tag adrielmodollo/hello-docker:0.0.1-SNAPSHOT adrielmodollo/hello-docker:latest <-fixar nome da versão
