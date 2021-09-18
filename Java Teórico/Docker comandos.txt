@@ -27,3 +27,7 @@ docker tag adrielmodollo/hello-docker:0.0.1-SNAPSHOT adrielmodollo/hello-docker:
 
 docker image remove id ou docker rmi id < remove a imagem especifica (caso dar alguma falha coloque -f na frente do id para forçar a remoção)
 git pull nome da image < baixa a image
+
+
+docker componser unpause ID <- pausar ou despausar container
+docker container inspect ID <- mostrar detalhadamente o que está ocorrendo com essa imagem 
