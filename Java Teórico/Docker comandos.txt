@@ -34,3 +34,13 @@ docker container inspect ID <- mostrar detalhadamente o que está ocorrendo com 
 
 Apaga todos container que não estão sendo utilizados
 docker container prune
+
+Mata todos processos 
+docker container kill
+docker container kill ID < mata container especifico 
+
+Restart docker/iniciar junto com docker
+docker run -p 80:80 -d --restart=always adrielmodollo/hello-docker
+
+listar todos processos - execução/stop/kill...
+docker events
