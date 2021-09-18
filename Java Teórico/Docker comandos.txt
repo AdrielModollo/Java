@@ -31,3 +31,6 @@ git pull nome da image < baixa a image
 
 docker componser unpause ID <- pausar ou despausar container
 docker container inspect ID <- mostrar detalhadamente o que está ocorrendo com essa imagem 
+
+Apaga todos container que não estão sendo utilizados
+docker container prune
