@@ -1,0 +1,5 @@
+mvn clean package -DskipTests
+ls
+docker build -t hello-docker:0.0.1-SNAPSHOT .
+
+"docker images" no PowerShell para listar.
