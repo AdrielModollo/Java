@@ -44,3 +44,12 @@ docker run -p 80:80 -d --restart=always adrielmodollo/hello-docker
 
 listar todos processos - execução/stop/kill...
 docker events
+
+Vê o que está ocorrendo no container especifico
+docker top ID
+
+Mostra o cosumo em tempo instantaneo 
+docker stats
+
+Mostrar quantidade utilizada de container, volume, images, etc...
+docker system df
