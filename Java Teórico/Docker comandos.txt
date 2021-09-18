@@ -3,3 +3,9 @@ ls
 docker build -t hello-docker:0.0.1-SNAPSHOT .
 
 "docker images" no PowerShell para listar.
+
+subir repositório
+docker tag hello-docker:0.0.1-SNAPSHOT adrielmodollo/hello-docker:0.0.1-SNAPSHOT
+docker images
+docker login docker.io
+docker push adrielmodollo/hello-docker:0.0.1-SNAPSHOT
