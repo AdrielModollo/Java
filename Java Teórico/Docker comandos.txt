@@ -9,3 +9,7 @@ docker tag hello-docker:0.0.1-SNAPSHOT adrielmodollo/hello-docker:0.0.1-SNAPSHOT
 docker images
 docker login docker.io
 docker push adrielmodollo/hello-docker:0.0.1-SNAPSHOT
+
+Executar docker
+docker run -p 80:80 -d adrielmodollo/hello-docker:0.0.1-SNAPSHOT
+docker container ls
